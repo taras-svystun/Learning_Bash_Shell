@@ -26,3 +26,10 @@ This the summary of the book "Learning the Bash Shell" 3rd edition, by Cameron N
 12. `cut -d, -f3 -s numbers.csv | sort -n` will select numbers from 3rd field, whose rows contain delim and sort numerically.
 13. `uncompress gcc.tar &` will run the command in the background. One can type `jobs` to list all bg jobs.
 14. `diff` -- to see the difference brtween two files.
+15. Useful CTRL keys:
+    - `^U` -- erase all input;
+    - `^W` -- werase, word erase;
+    - `^R` -- find previous commands;
+    - `^O` = `^M` = `Return` -- enter the command;
+    - `^C` -- interupt;
+    - `^D` -- eof.
