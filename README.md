@@ -33,3 +33,24 @@ This the summary of the book "Learning the Bash Shell" 3rd edition, by Cameron N
     - `^O` = `^M` = `Return` -- enter the command;
     - `^C` -- interupt;
     - `^D` -- eof.
+
+
+## Chapter 2. Command-Line Editing
+
+#### VIM
+
+1. `h` - move left one character;
+2. `l` - move right one character;
+3. `j` - move down;
+4. `k` - move up;
+5. `w` - move forward one word;
+6. `b` - move backward one word;
+7. `e` - move to end of current word;
+8. `^` - move to beginning of line;
+9. `$` - move to end of line;
+10. `W` - move forward one non-blank word;
+11. `B` - move backward one non-blank word.
+
+#### Command-line editing.
+
+Press `esc` to enter control mode. And then one can use **vim** control commands to navigate over the input command.
