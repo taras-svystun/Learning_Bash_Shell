@@ -37,8 +37,7 @@ This the summary of the book "Learning the Bash Shell" 3rd edition, by Cameron N
 
 ## Chapter 2. Command-Line Editing
 
-#### VIM
-
+## Motions:
 1. `h` - move left one character;
 2. `l` - move right one character;
 3. `j` - move down;
@@ -50,6 +49,12 @@ This the summary of the book "Learning the Bash Shell" 3rd edition, by Cameron N
 9. `$` - move to end of line;
 10. `W` - move forward one non-blank word;
 11. `B` - move backward one non-blank word.
+
+## Commands:
+1. `u` - undo;
+2. `^r` - redo;
+3. `dd` - delete a line;
+
 
 #### Command-line editing.
 
